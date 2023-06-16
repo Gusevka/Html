@@ -1,0 +1,35 @@
+.list{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.list li{
+    margin-bottom: 8px;
+    border-bottom: 1px solid grey;
+}
+
+table {
+    width: 100%;
+}
+
+.table td{
+    text-align: center;
+    padding-bottom: 10px; /*используют padding вместе margin */
+}
+
+/* .table tr:nth-child(even){
+    background-color: grey;
+} */
+
+.table tr:nth-child(odd){
+    background-color: rgba(128, 128, 128, 0.632);
+}
+
+.table td:nth-child(2), .table td:nth-child(4){
+    background-color: blanchedalmond;
+}
+
+.table td:hover{
+    background-color: rgba(73, 73, 255, 0.502);
+}
